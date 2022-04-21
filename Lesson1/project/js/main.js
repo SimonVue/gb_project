@@ -5,7 +5,7 @@ const products = [
     {id: 4, title: 'Gamepad', price: 150},
 ];
 
-const getProductHTMLString = (title, price) => {
+const getProductHTMLString = (title = 'choosed device', price = 0) => {
     return `<div class="product-item">
                 <h3>${title}</h3>
                 <p>${price}</p>
@@ -16,7 +16,7 @@ const getProductHTMLString = (title, price) => {
 const renderProducts = (productList) => {
   const list = productList.map((good) => getProductHTMLString(good.title, good.price));
 
-  document.querySelector('.products').innerHTML = list;
+  document.querySelector('.products').innerHTML = list.join('');
     // console.log(list);
 }
 
