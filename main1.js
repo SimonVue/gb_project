@@ -29,7 +29,7 @@ class ProductList {
 }
 
 class ProductItem {
-  constructor(product, img='img/noimg.jpg') {
+  constructor(product, img='https://via.placeholder.com/200x150') {
     this.id = product.id;
     this.title = product.title;
     this.price = product.price;
@@ -57,7 +57,7 @@ new ProductList();
 //   {id: 4, title: 'Gamepad', price: 4500},
 // ];
 //
-// const renderProduct = (item, img='img/noimg.jpg') => `<div class="product-item">
+// const renderProduct = (item, img='https://via.placeholder.com/200x150') => `<div class="product-item">
 //               <img src="${img}" alt="Some img">
 //               <div class="desc">
 //                   <h3>${item.title}</h3>
