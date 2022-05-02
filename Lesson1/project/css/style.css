@@ -1,6 +1,10 @@
+body {
+    /*font-family: sans-serif;*/
+}
+
 header {
     width: 100%;
-    background: #e0e7ff;
+    background: #d2daf1;
     margin-bottom: 90px;
 }
 
@@ -24,14 +28,14 @@ header {
     width: 120px;
     height: 40px;
     font-size: 18px;
-    background: #ff9292;
+    background: #c9c9c9;
     cursor: pointer;
     border: none;
     border-radius: 3px;
     transition: 0.3s;
 }
 .buy-button:hover {
-    background: #c04747;
+    background: #7c7c7c;
     color: white;
 }
 
@@ -43,9 +47,7 @@ header {
 
 .product-item {
     width: 20%;
-    height: 250px;
-    padding: 30px;
-    /*border: 1px solid #e3dfdf;*/
+    padding: 15px 15px 25px;
     border-radius: 5px;
     background: #fafafa;
     cursor: pointer;
@@ -53,8 +55,11 @@ header {
 }
 
 .product-item:hover {
-    box-shadow: 1px 0px 5px 0px rgba(50, 50, 50, 0.31);
+    box-shadow: 1px 0 5px 0 rgba(50, 50, 50, 0.31);
 }
 img {
     width: 100%;
+}
+h3 {
+    color: #3752a3;
 }
